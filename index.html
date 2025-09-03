@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Practice Assignment 1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.1.1/mocha.css"
+    integrity="sha512-Ytt2foRGKdIInPXwyS3gxRvfTv4n2wi7uB7neCLH1LjExT+PKBeQu6LNVB4QpHaJqx7m2btagBs4kqxYC1QNFg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="directions">
+    <p>
+      You need to <span id="createUser">create a unique ID</span> before you can
+      submit your assignment.
+    </p>
+    <p>
+      👉 You may need to enable pop-ups for this site if your browser blocks them.
+  </p>
+  <section id="newUserSection">
+      <label for="newUser">
+          <span class="honey">This is your User ID.</span>
+          Copy, paste, and save it somewhere safe. You'll need it to submit this assignment and all future
+          assignments and projects this semester! And it will NOT be available to view again.
+      </label>
+      <input type="text" id="newUser" />
+      <p>
+        🚨 PLEASE save your unique ID!🚨 
+      </p>
+  </section>
+  <p>You may need to <span id="reloadPage">refresh this page</span> to see your score update
+        after you have made changes to your Javascript code in the main.js file.
+      </p>
+    <p>
+      Did you:
+  </p>
+  <ul>
+      <li>Create a unique ID?</li>
+      <li>Complete Your Assignment?</li>
+      <li>If so, you are ready to click submit.</li>
+  </ul>
+    <button id="submitButton">
+      Submit Your Assignment
+    </button>
+  </div>
+  <div id="mocha"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.1.1/mocha.min.js"
+    integrity="sha512-vOMXB+Rjob/NIG88cgEK+t6Uuf0zJIzQrfKH8VFc7AW18y/rzszRXaKPNAPf1ePv2hQ3eYR8yEu4S85Np3DhLA=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.2.0/chai.min.js"
+    integrity="sha512-x3BwhuxT44pOQZanacQyDnrB2r1L1AUfjUaefYArTHR9sHEvvy3NSnnm5Z7GAl5YPc3+GEWFT0S34obDSzUvaQ=="
+    crossorigin="anonymous"></script>
+  <script>
+    mocha.setup("bdd");
+  </script>
+  <script src="main.js"></script>
+  <script src="https://serene-roentgen-345cd7.netlify.app/tests/practice01Test.min.js"></script>
+  <script>
+    mocha.run();
+  </script>
+  <script src="https://serene-roentgen-345cd7.netlify.app/util/util01.min.js"></script>
+</body>
+
+</html>
