@@ -14,7 +14,7 @@ let myTotal = myNumber * myOtherNumber;
 /* 5) Define a variable named myName and assign your name as the value. 
 Define a 2nd variable named myCombo and assign it the result of the variables 
 myName + myNumber  */
-let myName = "YourName"; // Replace with your actual name
+let myName = "Thanya Castellon"; // Updated with your real name
 let myCombo = myName + myNumber;
 
 /* 6) Define a variable named myOtherCombo. Set the value of myOtherCombo equal to  
